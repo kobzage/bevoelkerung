@@ -234,6 +234,7 @@ elif seite == "📈 Familienstand nach Alter, Geschlecht und Nationalität":
         )
         st.subheader("Staatsangehörigkeitsstatus")
         nationalitaet_auswahl = st.multiselect("", ["Deutsch", "Ausländer"], default=["Deutsch", "Ausländer"], key="nationalitaet")
+        st.caption("*Quelle: Statistisches Bundesamt (Destatis)*")
 
     with col2:
         prefix_map = {
