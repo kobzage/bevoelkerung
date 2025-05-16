@@ -281,7 +281,7 @@ elif seite == "📈 Familienstand nach Alter, Geschlecht und Nationalität":
             )
 
             st.altair_chart(chart, use_container_width=True)
-         st.caption("*Quelle: Statistisches Bundesamt (Destatis)*")
+            st.caption("*Quelle: Statistisches Bundesamt (Destatis)*")
 
 # --- Seite 4 ---
 
