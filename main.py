@@ -281,6 +281,7 @@ elif seite == "📈 Familienstand nach Alter, Geschlecht und Nationalität":
             )
 
             st.altair_chart(chart, use_container_width=True)
+         st.caption("*Quelle: Statistisches Bundesamt (Destatis)*")
 
 # --- Seite 4 ---
 
@@ -331,4 +332,5 @@ elif seite == "👶 Kohortenanalyse":
         )
 
         st.altair_chart(chart, use_container_width=True)
-        st.caption("Quelle: Eigene Berechnung auf Basis von kohorte.csv")
+       st.caption("*Quelle: Statistisches Bundesamt (Destatis)*")
+
