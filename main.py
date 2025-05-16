@@ -199,7 +199,8 @@ elif seite == "🧀 Familienstand – Verteilung nach Geschlecht":
         fig_f.update_traces(textinfo="percent+label", pull=[0.03]*4)
         st.plotly_chart(fig_f, use_container_width=True)
 
-    st.caption("*Quelle: Statistisches Bundesamt – eigene Aufbereitung aus käse.csv*")
+    st.caption("*Quelle: Statistisches Bundesamt (Destatis)*")
+
 
 # --- Seite 3 ---
 
