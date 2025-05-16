@@ -332,5 +332,5 @@ elif seite == "👶 Kohortenanalyse":
         )
 
         st.altair_chart(chart, use_container_width=True)
-       st.caption("*Quelle: Statistisches Bundesamt (Destatis)*")
+        st.caption("*Quelle: Statistisches Bundesamt (Destatis)*")
 
