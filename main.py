@@ -231,8 +231,7 @@ elif seite == "📈 Familienstand nach Alter, Geschlecht und Nationalität":
             default=["Ledig", "Verheiratet", "Verwitwet", "Geschieden"],
             key="familienstand"
         )
-
-        st.subheader("Nationalität auswählen")
+        st.subheader("Staatsangehörigkeitsstatus")
         nationalitaet_auswahl = st.multiselect("", ["Deutsch", "Ausländer"], default=["Deutsch", "Ausländer"], key="nationalitaet")
 
     with col2:
@@ -282,7 +281,7 @@ elif seite == "📈 Familienstand nach Alter, Geschlecht und Nationalität":
 
             st.altair_chart(chart, use_container_width=True)
 
-# --- Seite 3 ---
+# --- Seite 4 ---
 
 
 elif seite == "👶 Kohortenanalyse":
